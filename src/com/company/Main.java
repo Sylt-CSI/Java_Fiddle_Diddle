@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(args));
-        // pass derp
+        // pass derp lala
     }
 }
 
