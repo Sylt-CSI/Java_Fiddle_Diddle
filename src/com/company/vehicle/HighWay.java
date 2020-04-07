@@ -3,7 +3,11 @@ package com.company.vehicle;
 public class HighWay {
     public static void main(String[] args) {
         Car myCar = new Car("Red","Tesla");
-        myCar.accelerate();
+        for (int timeSteps = 0; timeSteps < 10; timeSteps++) {
+            myCar.accelerate();
+            System.out.println(myCar.toString());
+        }
+        System.out.println(myCar.toString());
         System.out.println(myCar.getSpeed());
         myCar.brake();
         System.out.println(myCar.getSpeed());
